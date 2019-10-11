@@ -66,3 +66,7 @@ Projeto: `ngproj`
 npm install -g http-server-spa@1.3.0
 ng build --prod --source-map
 http-server-spa dist/ngproj/ index.html 8080
+
+# Comandos do Git:
+https://gist.github.com/leocomelli/2545add34e4fec21ec16
+
