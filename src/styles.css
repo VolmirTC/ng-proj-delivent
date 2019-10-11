@@ -1,0 +1,58 @@
+/* You can add global styles to this file, and also import other style files */
+
+  /* https://material.io/archive/guidelines/style/color.html#color-color-palette Light Green */
+  .tema_green_500{
+    background-color: #8BC34A;
+    color: black;
+  }
+
+  .tema_green_100{
+    background-color: #DCEDC8;
+    color: black;
+  }
+
+  .tema_green_200{
+    background-color: #C5E1A5;
+    color: black;
+  }
+
+  .tema_green_300{
+    background-color: #AED581;
+    color: black;
+  }
+
+  .tema_green_400{
+    background-color: #9CCC65;
+    color: black;
+  }
+
+  .tema_green_800{
+    background-color: #558B2F;
+    color: white;
+  }
+
+  .tema_green_900{
+    background-color: #33691E;
+    color: white;
+  }
+
+  .tema_green_A100{
+    background-color: #CCFF90;
+    color: black;
+  }
+
+  .tema_green_A200{
+    background-color: #B2FF59;
+    color: black;
+  }
+
+  .tema_green_A400{
+    background-color: #76FF03;
+    color: black;
+  }
+
+  .tema_green_A700{
+    background-color: #64DD17;
+    color: black;
+  }
+  

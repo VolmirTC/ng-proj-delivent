@@ -1,0 +1,32 @@
+<h1>Resultados</h1>
+
+<div class="row">
+    <br>
+    <br>
+    <h3 style="margin-left: 20px; margin-right: 20px;">Listagem de Resultados</h3>
+
+    <table>
+        <tr style="font-weight: 500; padding: 10px;  ">
+            <td width="10%" style="border: solid 1px rgb(212, 34, 14); margin: 0px; padding: 0px;">&nbsp; Id</td>
+            <td width="10%" style="border: solid 1px rgb(212, 34, 14); margin: 0px; padding: 0px;">&nbsp; Concurso</td>
+            <td width="30%" style="border: solid 1px rgb(212, 34, 14); margin: 0px; padding: 0px;">&nbsp; Numeros</td>
+
+        </tr>
+        <!-- <tr *ngFor="let r of novo$"> // $ notação finlandesa -->
+        <tr *ngFor="let r of resultado">
+
+            <td>{{r.Id}}</td>
+            <td>{{r.Concurso}}</td>
+            <td>{{r.Numeros}}</td>
+
+        </tr>
+    </table>
+    <br>
+    <br>
+    <font color="RED" *ngIf="erro">{{erro}}</font>
+    <br>
+    <br>
+    <br>
+
+</div>
+<router-outlet></router-outlet>

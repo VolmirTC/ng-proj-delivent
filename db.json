@@ -1,0 +1,21 @@
+{
+  "resultado": [
+    {
+      "Id": 1,
+      "Concurso": 5076,
+      "Numeros": "55,66,57,58,9"
+    },
+    {
+      "Id": 2,
+      "Concurso": 5077,
+      "Numeros": "15,26,37,48,19"
+    },
+    {
+      "Id": 3,
+      "Concurso": 5078,
+      "Numeros": "10,11,12,13,14,(db.json)"
+    }
+
+  ]
+ 
+}

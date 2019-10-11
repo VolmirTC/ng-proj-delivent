@@ -1,0 +1,15 @@
+{
+  "/api/*": {
+    "target": "http://tbaw.site",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/api": "http://tbaw.site/api"
+    }
+  },
+  "/assets/*": { 
+    "target": "http://tbaw.site/app",
+    "changeOrigin": true,
+    "secure": true
+  }
+}

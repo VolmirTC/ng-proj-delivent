@@ -1,0 +1,3 @@
+@echo off
+echo Server especial...
+http-server-spa dist/ngproj/ index.html 8080
