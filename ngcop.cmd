@@ -8,6 +8,8 @@ echo.
 echo.
 echo Começando a copia ...
 copy *.* c:\ngproj\public 
+echo.
+echo.
 echo Deploing ...
 cd\ngproj\public 
 firebase deploy
