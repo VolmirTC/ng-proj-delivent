@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { UrlService } from '../url.service';
 
 @Component({
   selector: 'app-pagina-nao-encontrada',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PaginaNaoEncontradaComponent implements OnInit {
 
+  _versao = UrlService.VERSAO;
+  
   constructor() { }
 
   ngOnInit() {

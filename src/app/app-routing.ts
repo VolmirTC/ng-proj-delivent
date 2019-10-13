@@ -11,7 +11,7 @@ const rotas: Routes = [
 
   {path: 'resultados', component: ResultadosComponent} ,
   { path: 'home', component: HomeComponent },
-  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  //{ path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: '**', component: PaginaNaoEncontradaComponent }
 
 ];

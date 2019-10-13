@@ -14,6 +14,7 @@ export class ResultadosComponent implements OnInit {
   resultado: Resultado[];
   erro: string = "";
   public sURL: string;
+  _versao = UrlService.VERSAO;
 
   //novo$: Observable<Resultado[]>; // $ notação holandesa 
   

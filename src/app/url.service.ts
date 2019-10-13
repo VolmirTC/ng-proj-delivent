@@ -13,7 +13,7 @@ export class UrlService {
   //static API_RESULTADO = "/db/db.json" ; // funciona apenas json-server
 
   static title = 'Delivent';
-  static VERSAO = "1.0.10 - push";
+  static VERSAO = "1.0.10 - s/home";
 
   constructor() { }
 
