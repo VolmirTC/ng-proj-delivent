@@ -27,7 +27,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 
-## PROXY e CORS - ISSUES
+# PROXY e CORS - ISSUES
 1. Usei esta configuracao do link abaixo
 https://github.com/angular/angular-cli/issues/4676#issuecomment-367270531
 
@@ -67,15 +67,16 @@ npm install -g http-server-spa@1.3.0
 ng build --prod --source-map
 http-server-spa dist/ngproj/ index.html 8080
 
-# Comandos do Git:
+### Comandos do Git:
 https://gist.github.com/leocomelli/2545add34e4fec21ec16
 
-## FIREBASE 
+# FIREBASE 
 
-# antes de jogar o conteudo do DIST, initializei 
---------------[consagrada]---
-# no processo de build -> public, apagar o conteudo do public e tem q reINIT 
-# o public com o Firebase
+### antes de jogar o conteudo do DIST, initializei 
+
+### --------------[consagrada]---
+## no processo de build -> public, apagar o conteudo do public e tem q reINIT 
+## o public com o Firebase
 ? What do you want to use as your public directory? `<- NADA`
 ? Configure as a single-page app (rewrite all urls to /index.html)? `Yes`
 ? File /index.html already exists. Overwrite? `No`
