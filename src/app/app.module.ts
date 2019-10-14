@@ -19,6 +19,7 @@ import { PaginaNaoEncontradaComponent } from './pagina-nao-encontrada/pagina-nao
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RetornaVersaoPipe } from './retorna-versao.pipe';
 import { OfflineComponent } from './offline/offline.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { OfflineComponent } from './offline/offline.component';
     HomeComponent,
     PaginaNaoEncontradaComponent,
     RetornaVersaoPipe,
-    OfflineComponent
+    OfflineComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

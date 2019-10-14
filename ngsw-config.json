@@ -4,7 +4,7 @@
   "assetGroups": [
     {
       "name": "delivent-app",
-      "installMode": "lazy",
+      "installMode": "prefetch",
       "resources": {
         "files": [
           "/favicon.ico",
@@ -16,8 +16,8 @@
       }
     }, {
       "name": "assets",
-      "installMode": "lazy",
-      "updateMode": "prefetch",
+      "installMode": "prefetch",
+      "updateMode": "lazy",
       "resources": {
         "files": [
           "/assets/**",
