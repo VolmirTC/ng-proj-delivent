@@ -1,3 +1,4 @@
+import { OfflineComponent } from './offline/offline.component';
 import { PaginaNaoEncontradaComponent } from './pagina-nao-encontrada/pagina-nao-encontrada.component';
 import { AppComponent } from './app.component';
 // import { NgModule } from '@angular/core';
@@ -9,7 +10,8 @@ import { HomeComponent } from './home/home.component';
 
 const rotas: Routes = [
 
-  {path: 'resultados', component: ResultadosComponent} ,
+  { path: 'resultados', component: ResultadosComponent },
+  { path: 'offline', component: OfflineComponent },
   { path: 'home', component: HomeComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: '**', component: PaginaNaoEncontradaComponent }

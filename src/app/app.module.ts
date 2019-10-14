@@ -18,6 +18,7 @@ import { rotando } from './app-routing';
 import { PaginaNaoEncontradaComponent } from './pagina-nao-encontrada/pagina-nao-encontrada.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RetornaVersaoPipe } from './retorna-versao.pipe';
+import { OfflineComponent } from './offline/offline.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { RetornaVersaoPipe } from './retorna-versao.pipe';
     ResultadosComponent,
     HomeComponent,
     PaginaNaoEncontradaComponent,
-    RetornaVersaoPipe
+    RetornaVersaoPipe,
+    OfflineComponent
   ],
   imports: [
     BrowserModule,
