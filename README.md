@@ -83,12 +83,19 @@ https://gist.github.com/leocomelli/2545add34e4fec21ec16
 i  Skipping write of /index.html
 
 
-# COMANDOS
-firebase login
-firebase init 
-firebase deploy 
+### COMANDOS
+* firebase login
+* firebase init 
+* firebase deploy 
 
-* testar ng @firebase/tools 
+#### * testar ng @firebase/tools 
 
+# TRABALHANDO
+## Para testar uso:
+* ngs.cmd
+
+## Para deploy uso:
+* ngb.cmd (builda)
+* ngcop (copy e deploy no firebase)
 
 

@@ -160,12 +160,13 @@
   a,
   a:visited,
   a:hover {
-    color: #1976d2;
+    color: #13460a;
     text-decoration: none;
   }
 
   a:hover {
-    color: #125699;
+    color: #7ffa0c;
+    text-decoration-line: underline;
   }
 
   .terminal {
@@ -296,6 +297,10 @@
       display: none;
       visibility: hidden;
     }
+  }
+
+  .mat-list-item {
+    float: right;
   }
 
   

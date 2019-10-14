@@ -1,20 +1,21 @@
 <!-- Toolbar -->
-<div class="toolbar tema_green_400" role="banner" >
+<mat-toolbar  layout="row" class="md-whiteframe-z3 tema_green_400" >
 
   <a routerLink=""><img width="40" title="Angular Logo" alt="Angular Logo" src="../assets/icons/icon-96x96.png" /></a>
-  <span style="padding: 5px;">Bem-vindo ao {{title}}</span>
+  <span style="padding: 15px;">{{title}}</span>
 
-  <div class="nav-wrapper">
+  <span style="margin-left: 15px;"> | </span>
 
-    <ul>
-      <li><a routerLink="/resultados">Resultados</a></li>
-      <li><a routerLink="">Home</a></li>
-    </ul>
+      <span style="margin-left: 15px; font-size: 14px;">
+        <a routerLink="/resultados">Resultados</a></span>
+      <span style="margin-left: 15px;  font-size: 14px;">
+        <a routerLink="">Home</a></span>
+    
 
-  </div>
+
+</mat-toolbar>
 
 
-</div>
 <!-- /Toolbar -->
 
 <router-outlet></router-outlet>
