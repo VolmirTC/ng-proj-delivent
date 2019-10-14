@@ -7,9 +7,9 @@ import { UrlService } from '../url.service';
 })
 export class PaginaNaoEncontradaComponent implements OnInit {
 
-  _versao = UrlService.VERSAO;
-  
-  constructor() { }
+  _VERSAO = UrlService.VERSAO;
+
+  constructor() {}
 
   ngOnInit() {
   }

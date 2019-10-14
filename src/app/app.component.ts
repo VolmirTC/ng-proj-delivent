@@ -10,7 +10,7 @@ import { UrlService } from './url.service';
 
 export class AppComponent implements OnInit {
 
-  mostrarMenu: boolean = true;
+  // mostrarMenu: boolean = true;
   title = UrlService.title;
 
   constructor(private swUpdate: SwUpdate) {
@@ -20,7 +20,7 @@ export class AppComponent implements OnInit {
 
     // console.log(this.title);
     // console.log(this.site);
-    //console.log(this._RESULTADO);
+    // console.log(this._RESULTADO);
 
     if (this.swUpdate.isEnabled) {
       this.swUpdate.available.subscribe(() => {

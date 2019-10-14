@@ -3,5 +3,3 @@ export interface Resultado {
     Concurso: number;
     Numeros: string;
   }
-  
-  

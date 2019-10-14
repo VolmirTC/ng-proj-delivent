@@ -5,26 +5,24 @@ import { Observable } from 'rxjs';
 import { UrlService } from '../url.service';
 
 @Component({
-  selector: 'tag-resultados',
+  selector: 'app-resultados',
   templateUrl: './resultados.component.html',
   styleUrls: ['./resultados.component.css']
 })
 export class ResultadosComponent implements OnInit {
 
   resultado: Resultado[];
-  erro: string = "";
+  erro: string;
   public sURL: string;
-  _versao = UrlService.VERSAO;
+  _VERSAO = UrlService.VERSAO;
 
-  //novo$: Observable<Resultado[]>; // $ notação holandesa 
-  
-  constructor(private resultadosService: ResultadosService) { }
+  // novo$: Observable<Resultado[]>; // $ notação holandesa
+  constructor(private resultadosService: ResultadosService) {}
 
   ngOnInit() {
-    this.getAllResultados(); 
+    this.getAllResultados();
     this.sURL = UrlService.API_RESULTADO; // this.resultadosService.getUrl();
   }
-
 
   public getAllResultados() {
 
@@ -34,16 +32,16 @@ export class ResultadosComponent implements OnInit {
       this.resultadosService.getAllResultados().subscribe(
         res => {
           this.resultado = res;
-          //this.erro = "*** TUDO OK! ***" ;
+          // this.erro = "*** TUDO OK! ***" ;
         },
         err => {
           // alert("Um erro ocorreu com resultado!!!\n" + this.resultadosService.getUrl() );
-          this.erro = "Um erro ocorreu com o RESULTADO! " + err;
+          this.erro = 'Um erro ocorreu com o RESULTADO!' + err;
           console.warn(this.erro);
-          //window.alert('Erro: '+this.erro);
+          // window.alert('Erro: '+this.erro);
         }
       );
-    
+
   }
 
 }

@@ -12,25 +12,22 @@ import { Observable } from 'rxjs';
 })
 export class ResultadosService {
 
+  // resultado: Resultado[] = [];
+  novo: Observable<Resultado[]>;
+  URL_API: string = UrlService.API_RESULTADO;
+  constructor(private client: HttpClient) {}
 
-  //resultado: Resultado[] = [];
-  novo: Observable<Resultado[]> ;
-  
-  constructor(private client: HttpClient) { }
+  getAllResultados(): Observable<Resultado[]> {
 
-
-  getAllResultados(): Observable<Resultado[]>  {
-    
-    console.info("Service Api ====> " + UrlService.API_RESULTADO);
+    console.warn('Service Api ====>' + this.URL_API);
 
     this.novo = this.client.get<Resultado[]>(UrlService.API_RESULTADO);
 
     return this.novo;
-
   }
 
 
-  // MOCK 
+  // MOCK
   // listar() {
 
   //   this.resultado = [{
@@ -48,6 +45,4 @@ export class ResultadosService {
   //   return this.resultado;
   // }
 
-  
-  
 }

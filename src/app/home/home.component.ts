@@ -10,9 +10,9 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
 
   title = UrlService.title; // 'Delivent';
-  site = 'Site: ' + UrlService.SITE; 
-  _RESULTADO = 'API: ' + UrlService.API_RESULTADO;
-  _versao = UrlService.VERSAO;
+  site = 'Site:' + UrlService.SITE;
+  _RESULTADO = 'API:' + UrlService.API_RESULTADO;
+  _VERSAO = UrlService.VERSAO;
 
   constructor() { }
 

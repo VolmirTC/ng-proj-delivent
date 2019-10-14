@@ -20,6 +20,6 @@ const rotas: Routes = [
 //   imports: [RouterModule.forRoot(rotas)],
 //   exports: [RouterModule]
 // })
-//export class AppRoutingModule { }
+// export class AppRoutingModule { }
 
 export const rotando: ModuleWithProviders = RouterModule.forRoot(rotas);
