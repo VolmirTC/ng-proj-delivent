@@ -17,13 +17,15 @@ import { HomeComponent } from './home/home.component';
 import { rotando } from './app-routing';
 import { PaginaNaoEncontradaComponent } from './pagina-nao-encontrada/pagina-nao-encontrada.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { RetornaVersaoPipe } from './retorna-versao.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     ResultadosComponent,
     HomeComponent,
-    PaginaNaoEncontradaComponent
+    PaginaNaoEncontradaComponent,
+    RetornaVersaoPipe
   ],
   imports: [
     BrowserModule,

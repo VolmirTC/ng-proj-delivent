@@ -1,3 +1,4 @@
+import { RetornaVersaoPipe } from './../retorna-versao.pipe';
 import { UrlService } from './../url.service';
 import { Component, OnInit } from '@angular/core';
 
@@ -12,7 +13,7 @@ export class HomeComponent implements OnInit {
   title = UrlService.title; // 'Delivent';
   site = 'Site:' + UrlService.SITE;
   _RESULTADO = 'API:' + UrlService.API_RESULTADO;
-  _VERSAO = UrlService.VERSAO;
+  _VERSAO =  UrlService.VERSAO;
 
   constructor() { }
 
