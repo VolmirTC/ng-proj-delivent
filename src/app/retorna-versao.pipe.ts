@@ -7,7 +7,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 export class RetornaVersaoPipe implements PipeTransform {
 
   transform(value: any): any {
-    let value2 = value + ' com pipe';
+    let value2 = value + ' pwa';
     return value2;
   }
 

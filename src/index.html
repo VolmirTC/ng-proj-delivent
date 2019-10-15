@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Delivent</title>
+  <title>Delivent PWA</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
@@ -32,6 +32,17 @@
   </app-root>
   <noscript>Por favor habilite o JavaScript para continuar usando esta aplicação.</noscript>
 
-</body>
+  <script>
+    if ('serviceWorker' in navigator) {
+      console.log("O SW registrará?");
+      navigator.serviceWorker.register('service-worker.js')
+        .then(function(reg){
+          console.log("Sim, tudo certo.");
+        }).catch(function(err) {
+          console.warn("Não funcionou. Erro: ", err)
+        });
+    }
+  </script>
 
+</body>
 </html>

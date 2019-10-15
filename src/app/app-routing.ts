@@ -1,10 +1,11 @@
+import { Routes, RouterModule } from '@angular/router';
+import { ModuleWithProviders } from '@angular/core';
+
 import { AboutComponent } from './about/about.component';
 import { OfflineComponent } from './offline/offline.component';
 import { PaginaNaoEncontradaComponent } from './pagina-nao-encontrada/pagina-nao-encontrada.component';
 import { AppComponent } from './app.component';
-// import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
-import { ModuleWithProviders } from '@angular/core';
+
 import { ResultadosComponent } from './resultados/resultados.component';
 import { HomeComponent } from './home/home.component';
 

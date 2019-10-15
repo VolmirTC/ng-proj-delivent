@@ -18,10 +18,6 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
 
-    // console.log(this.title);
-    // console.log(this.site);
-    // console.log(this._RESULTADO);
-
     if (this.swUpdate.isEnabled) {
       this.swUpdate.available.subscribe(() => {
 
@@ -30,6 +26,10 @@ export class AppComponent implements OnInit {
        // }
 
       });
+
+    }else{
+        console.warn("Erro no swUpdate!"); 
     }
+
   }
 }
