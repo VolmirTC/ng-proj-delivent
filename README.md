@@ -98,4 +98,6 @@ i  Skipping write of /index.html
 * ngb.cmd (builda)
 * ngcop (copy e deploy no firebase)
 
+# Aprendizado
+* Excesso de deploy gera erro no Firebase (perda de instavel e https)
 

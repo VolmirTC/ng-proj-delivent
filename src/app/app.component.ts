@@ -27,9 +27,7 @@ export class AppComponent implements OnInit {
 
       });
 
-    }else{
-        console.warn("Erro no swUpdate!"); 
-    }
+    } 
 
   }
 }

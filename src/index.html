@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Delivent PWA</title>
+  <title>Delivent</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
@@ -22,8 +22,9 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#C5E1A5">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&amp;display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 </head>
 
 <body>
@@ -33,14 +34,22 @@
   <noscript>Por favor habilite o JavaScript para continuar usando esta aplicação.</noscript>
 
   <script>
+    // Checkando compatibilidade do browser
     if ('serviceWorker' in navigator) {
-      console.log("O SW registrará?");
-      navigator.serviceWorker.register('service-worker.js')
+
+      console.log("Registrando SW ...");
+
+      navigator.serviceWorker.register('ngsw-worker.js')
         .then(function(reg){
-          console.log("Sim, tudo certo.");
+          console.log("INDEX.HTML - Sim. Registrado: ", reg.scope );
+
         }).catch(function(err) {
-          console.warn("Não funcionou. Erro: ", err)
+          console.warn("INDEX.HTML - Não registrou. Erro: ", err);
+
         });
+
+    }else{
+      console.warn("Navegador não compativel com SW.");
     }
   </script>
 

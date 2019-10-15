@@ -23,7 +23,7 @@
               "src/favicon.ico",
               "src/icons",
               "src/assets",
-              "src/manifest.json"
+              "src/manifest.json"              
             ],
             "styles": [
               "src/custom-theme.scss",
@@ -93,6 +93,7 @@
               "src/favicon.ico",
               "src/assets",
               "src/manifest.json"
+              
             ],
             "styles": [
               "src/styles.css"

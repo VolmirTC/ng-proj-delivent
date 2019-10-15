@@ -7,7 +7,7 @@
   "orientation": "portrait",
   "scope": "/",
   "start_url": "/index.html",
-  "description": "PWA - Progressive Web Application demo com Angular.",
+  "description": "PWA - Progressive Web Apps com Angular.",
   "icons": [
     {
       "src": "assets/icons/icon-72x72.png",
