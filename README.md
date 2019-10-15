@@ -101,3 +101,10 @@ i  Skipping write of /index.html
 # Aprendizado
 * Excesso de deploy gera erro no Firebase (perda de instavel e https)
 
+## pelada a coruja, usar *HTTPS terminal Ubuntu*:
+git clone https://github.com/VolmirTC/ng-proj-delivent.git
+Username for 'https://github.com': VolmirTC
+Password for 'https://VolmirTC@github.com': *********** 
+
+
+
