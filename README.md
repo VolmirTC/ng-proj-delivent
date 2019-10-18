@@ -106,5 +106,12 @@ git clone https://github.com/VolmirTC/ng-proj-delivent.git
 Username for 'https://github.com': VolmirTC
 Password for 'https://VolmirTC@github.com': *********** 
 
+# Novo ambiente a parti de um projeto no git:
+clone o projeto
+1. git clone https://github.com/VolmirTC/pwa-tc.git (HTTPS) num diretorio raziz sem criar pasta. Deixar isto pro git clone.
+2. Dentro da pasta criada (exemplo pwa-tc) digitar npm install;
+3. ng start
+4. ng add @angular/pwa ? questionavel. 
+
 
 
