@@ -94,7 +94,7 @@ i  Skipping write of /index.html
 ## Para testar uso:
 * ngs.cmd
 
-## Para deploy uso:
+## Para deploy uso no Windows:
 * ngb.cmd (builda)
 * ngcop (copy e deploy no firebase)
 
@@ -108,10 +108,10 @@ Password for 'https://VolmirTC@github.com': ***********
 
 # Novo ambiente a parti de um projeto no git:
 clone o projeto
-1. git clone https://github.com/VolmirTC/pwa-tc.git (HTTPS) num diretorio raziz sem criar pasta. Deixar isto pro git clone.
-2. Dentro da pasta criada (exemplo pwa-tc) digitar npm install;
+1. git clone https://github.com/VolmirTC/pwa-tc.git (###HTTPS###) num diretorio raziz sem criar pasta. Deixar isto pro git clone.
+2. Dentro da pasta criada (exemplo pwa-tc) digitar *npm install*;
 3. ng start
-4. ng add @angular/pwa ? questionavel. 
+4. ng add @angular/pwa (testar) 
 
 
 
