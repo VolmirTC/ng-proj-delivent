@@ -51,7 +51,9 @@ https://github.com/angular/angular-cli/issues/4676#issuecomment-367270531
 3. No `package.json`
     "start": "ng serve --proxy-config proxy.conf.json",
 4. No `prompt`:
+```bash
 ng serve --proxy-config proxy.conf.json
+```
 
 5. No `ListaService` do Angular nao precisa PROXY pra `local`, apenas pra
 `backend externo`. 
@@ -63,12 +65,11 @@ ng serve --proxy-config proxy.conf.json
 
 # INSTALL e Configuracao extra para PWA  
 Projeto: `ngproj` 
+```bash
 npm install -g http-server-spa@1.3.0
 ng build --prod --source-map
 http-server-spa dist/ngproj/ index.html 8080
-
-### Comandos do Git:
-https://gist.github.com/leocomelli/2545add34e4fec21ec16
+```
 
 # FIREBASE 
 
